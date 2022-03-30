@@ -1,12 +1,15 @@
 <script>
     import {
         Page,
+        Navbar,
         List,
         ListInput
     } from "framework7-svelte"
 </script>
 
 <Page name="device">
+  <!-- Page Header -->
+  <Navbar backLink></Navbar>
     <!-- Page Content -->
     <List inlineLabels inset>
       <ListInput

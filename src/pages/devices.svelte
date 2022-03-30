@@ -2,6 +2,7 @@
     import {
         useStore,
         Page,
+        Navbar,
         List,
         ListItem,
         Block
@@ -12,6 +13,8 @@
 </script>
 
 <Page name="devices">
+    <!-- Page Header -->
+    <Navbar title="devices"></Navbar>
     <!-- Page content -->
     {#if products.length}
     <List mediaList>
