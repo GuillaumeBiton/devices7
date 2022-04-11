@@ -24,7 +24,7 @@
             title={product.title}
             subtitle={product.mark}
         >
-        <img alt="" slot="media" src="https://cdn.framework7.io/placeholder/fashion-88x88-1.jpg" width="44" />
+        <img alt="" slot="media" src={product.image} width="44" />
         </ListItem>
         {/each}
     </List>
