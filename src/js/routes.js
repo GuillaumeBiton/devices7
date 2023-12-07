@@ -6,7 +6,7 @@ import DevicePage from '../pages/device.svelte';
 var routes = [
   {
     path: '/',
-    component: DevicesPage,
+    component: HomePage,
   },
   {
     path: '/devices',

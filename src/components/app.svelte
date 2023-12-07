@@ -1,4 +1,4 @@
-<App { ...f7params } >
+<App { ...f7params }>
 
   <!-- Your main view, should have "view-main" class -->
   <View main class="safe-areas" url="/" />
@@ -23,6 +23,8 @@
   let f7params = {
     name: 'devices7', // App name
     theme: 'auto', // Automatic theme detection
+    darkMode: 'auto',
+
 
 
 
@@ -30,6 +32,7 @@
     store: store,
     // App routes
     routes: routes,
+
     // Register service worker (only on production build)
     serviceWorker: process.env.NODE_ENV ==='production' ? {
       path: '/service-worker.js',

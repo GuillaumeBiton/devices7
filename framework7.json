@@ -1,5 +1,5 @@
 {
-  "cwd": "/workspace/devices7",
+  "cwd": "/workspaces/devices7",
   "type": [
     "pwa",
     "web"
@@ -12,9 +12,8 @@
   "theming": {
     "customColor": false,
     "color": "#007aff",
-    "darkTheme": false,
-    "iconFonts": true,
-    "fillBars": false
+    "darkMode": false,
+    "iconFonts": true
   },
   "customBuild": false
 }

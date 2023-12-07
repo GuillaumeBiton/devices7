@@ -6,7 +6,7 @@ Framework7 app created with following options:
 
 ```
 {
-  "cwd": "/workspace/devices7",
+  "cwd": "/workspaces/devices7",
   "type": [
     "pwa",
     "web"
@@ -19,9 +19,8 @@ Framework7 app created with following options:
   "theming": {
     "customColor": false,
     "color": "#007aff",
-    "darkTheme": false,
-    "iconFonts": true,
-    "fillBars": false
+    "darkMode": false,
+    "iconFonts": true
   },
   "customBuild": false
 }

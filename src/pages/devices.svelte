@@ -3,6 +3,8 @@
         useStore,
         Page,
         Navbar,
+        Subnavbar,
+        Searchbar,
         List,
         ListItem,
         Block
@@ -14,10 +16,17 @@
 
 <Page name="devices">
     <!-- Page Header -->
-    <Navbar title="devices"></Navbar>
+    <Navbar backLink="Back" title="devices">
+        <Subnavbar inner={true}>
+            <Searchbar searchContainer=".search-list" searchIn=".item-title" />
+        </Subnavbar>
+    </Navbar>
+    <List strongIos outlineIos dividersIos class="searchbar-not-found">
+        <ListItem title="Nothing found" />
+    </List>
     <!-- Page content -->
     {#if products.length}
-    <List mediaList>
+    <List mediaList class="search-list searchbar-found">
         {#each products as product}
         <ListItem
             link="/device/{product.id}" 
